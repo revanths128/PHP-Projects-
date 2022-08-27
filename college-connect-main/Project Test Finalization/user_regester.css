@@ -1,0 +1,60 @@
+.header{
+    /*position: fixed;*/
+    top: 0;
+    z-index: 1030;
+    width: 100%;
+}
+.navigate{
+    /*position: fixed;*/
+    top: 50px;
+    width: 100%;
+    
+}
+.container{
+    z-index: -1;
+    margin-top: 20px;
+    border-radius: 0.4rem;
+}
+.author,.paper{
+    padding-top: 20px;
+}
+hr{
+    background-color: #4B9CD3;
+    padding: 0.1mm;
+
+}
+
+#paper-upload-input{
+    display: block;
+    width: 100%;
+    /* height: 100%; */
+    background-color: #fff;
+    color: #666;
+    font-size: 1rem;
+    font-weight: 400;
+    border: solid #ced4da 1px;
+    border-radius: 0.25rem;
+    /* padding: 2px 2px 2px 2px; */
+    
+} 
+.submit-btn{
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 40px;
+}
+
+@media(max-width:476px){
+    .blog-header-logo{
+        font-size: medium;
+    }
+    .logo{
+        width:50px;
+        height:50px
+    }
+    .navigate{
+        top:57px;
+    }
+    .container{
+        margin-top: 150px;
+    }
+}
